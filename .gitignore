@@ -1,3 +1,226 @@
+############
+# NOTES    #
+############
+# I am not excluding pdfs here because some of the papers
+# include pdfs as images. Maybe there is a good way to get
+# around this.
+
+#########################
+# Exclude Compiled Files
+#########################
+*.pyc
+*.exe
+
+##############
+# LaTex Files
+##############
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.nav
+*.pdfsync
+*.synctex.gz
+*.bak
+*.snm
+*.toc
+*.tdo
+*.run.xml
+
+##########
+# R Files
+##########
+.Rproj.user
+.Rhistory
+.RData
+.Rapp.history
+
+
+################
+# Data Files
+################
+*.hdf5
+*.npz
+
+
+###################################
+# Exclude Output From Scripted Jobs
+###################################
+*.o*
+*.e*
+
+####################################
+# Exclude Sublime Text project files
+####################################
+*.sublime*
+
+####################################
+# Exclude Mac OSX system files
+####################################
+.DS_Store
+
+####################################
+# Vagrant Files
+####################################
+.vagrant/
+notebook-ipython-runfile.sh
+
+########
+# MISC.
+########
+*.ini
+
+######################
+# Various Python Stuff
+######################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+# emacs
+*~
+
+# ipython
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+### OLDER GIT IGNORE BELOW
+
+
+.Rproj.user
+.Rhistory
+.RData
+bin/
+a.out
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+
+# emacs
+*~
+
+# ipython
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+
+# Visual Studio?
+*.vcxproj.user
+*.vs
+*.suo
+
+
+*.syntex.gz*
+# economics/my_textbook_of_everything/include/net\.bib
+
+*.gz(busy)
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
